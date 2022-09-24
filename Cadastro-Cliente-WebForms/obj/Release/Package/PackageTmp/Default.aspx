@@ -155,7 +155,7 @@
                         <asp:BoundField DataField="UF" HeaderText="UF" />
                         <asp:BoundField DataField="CEP" HeaderText="CEP" />
                         <asp:BoundField DataField="Telefone" HeaderText="Telefone" />
-                        <asp:BoundField DataField="Limite_Credito" HeaderText="Limite de Credito" DataFormatString="{0:F2}"/>
+                        <asp:BoundField DataField="Limite_Credito" HeaderText="Limite de Credito" DataFormatString="{0:C}"/>
                     </Columns>
                 </asp:GridView>
             </div>
@@ -173,7 +173,7 @@
                         <asp:BoundField DataField="UF" HeaderText="UF" />
                         <asp:BoundField DataField="CEP" HeaderText="CEP" />
                         <asp:BoundField DataField="Telefone" HeaderText="Telefone" />
-                        <asp:BoundField DataField="Limite_Credito" HeaderText="Limite de Credito" DataFormatString="{0:F2}"/>
+                        <asp:BoundField DataField="Limite_Credito" HeaderText="Limite de Credito" DataFormatString="{0:C}"/>
                     </Columns>
                 </asp:GridView>
             </div>
